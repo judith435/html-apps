@@ -1,9 +1,9 @@
 function getDrivers() {
-    return fetch('/html-apps-master/transportation-app/data/drivers.json');
+    return fetch('http://localhost/joint/test/html-apps/ls73/transportation-app/data/drivers.json');
 }
 
 function getAddresses() {
-    return fetch('/html-apps-master/transportation-app/data/addresses.json');
+    return fetch('http://localhost/joint/test/html-apps/ls73/transportation-app/data/addresses.json');
 }
 
 function fetch(url) {
